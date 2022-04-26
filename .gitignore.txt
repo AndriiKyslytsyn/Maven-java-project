@@ -2,4 +2,4 @@
 .apt_generated_tests
 .history
 .vscode
-.gitignore
+.gitignore.txt
