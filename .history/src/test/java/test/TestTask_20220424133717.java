@@ -1,0 +1,48 @@
+package test;
+
+
+
+
+
+
+
+import org.junit.Test;
+
+import page.Base
+Page;
+
+
+
+
+
+
+
+
+public class TestTask extends TestBase {
+
+
+    @Test
+    
+  
+
+    // public void clearUsername() {
+    //     getElement(By.cssSelector("[name='username']"))
+    // }
+    
+    public void login() throws InterruptedException {
+        main.goTo();
+        main.enterUsername();
+        main.enterPassword();  
+        main.submit();
+        checkPage.checkPageIsCorrect();
+
+        
+
+
+        
+        
+    }
+
+
+
+}
